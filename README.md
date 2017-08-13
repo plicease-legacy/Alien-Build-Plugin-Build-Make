@@ -15,7 +15,8 @@ This is handy, because it is the one make that you can mostly guarantee that you
 a `make` that isn't supported by the library or tool that you are trying to alienize.  This is mostly a problem on
 Windows, where the supported `make`s for years were Microsoft's `nmake` and Sun's `dmake`, which many open source
 projects do not use.  This plugin will alter the [alienfile](https://metacpan.org/pod/alienfile) recipe to use a different `make`.  It may (as in the
-case of `gmake` / [Alien::gmake](https://metacpan.org/pod/Alien::gmake)) automatically download and install an alienized version of that `make`.
+case of `gmake` / [Alien::gmake](https://metacpan.org/pod/Alien::gmake)) automatically download and install an alienized version of that `make` if it
+is not already installed.
 
 This plugin should NOT be used with other plugins that replace the `make` helper, like 
 [Alien::Build::Plugin::Build::CMake](https://metacpan.org/pod/Alien::Build::Plugin::Build::CMake), [Alien::Build::Plugin::Build::Autoconf](https://metacpan.org/pod/Alien::Build::Plugin::Build::Autoconf), 
