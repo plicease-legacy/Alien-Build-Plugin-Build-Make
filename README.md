@@ -17,6 +17,11 @@ Windows, where the supported `make`s for years were Microsoft's `nmake` and Sun'
 projects do not use.  This plugin will alter the [alienfile](https://metacpan.org/pod/alienfile) recipe to use a different `make`.  It may (as in the
 case of `gmake` / [Alien::gmake](https://metacpan.org/pod/Alien::gmake)) automatically download and install an alienized version of that `make`.
 
+This plugin should NOT be used with other plugins that replace the `make` helper, like 
+[Alien::Build::Plugin::Build::CMake](https://metacpan.org/pod/Alien::Build::Plugin::Build::CMake), [Alien::Build::Plugin::Build::Autoconf](https://metacpan.org/pod/Alien::Build::Plugin::Build::Autoconf), 
+[Alien::Build::Plugin::Build::MSYS](https://metacpan.org/pod/Alien::Build::Plugin::Build::MSYS).  This plugin is intended instead for projects that use vanilla makefiles of
+a specific type.
+
 # PROPERTIES
 
 ## make\_type
