@@ -33,6 +33,9 @@ a core plugin for [Alien::Build](https://metacpan.org/pod/Alien::Build).
 The make type needed by the [alienfile](https://metacpan.org/pod/alienfile) recipe:
 
 - dmake
+
+    Sun's dmake.
+
 - gmake
 
     GNU Make.
