@@ -22,6 +22,9 @@ This plugin should NOT be used with other plugins that replace the `make` helper
 [Alien::Build::Plugin::Build::MSYS](https://metacpan.org/pod/Alien::Build::Plugin::Build::MSYS).  This plugin is intended instead for projects that use vanilla makefiles of
 a specific type.
 
+This plugin is for now distributed separately from [Alien::Build](https://metacpan.org/pod/Alien::Build), but the intention is for it to soon become
+a core plugin for [Alien::Build](https://metacpan.org/pod/Alien::Build).
+
 # PROPERTIES
 
 ## make\_type
