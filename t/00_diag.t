@@ -16,6 +16,7 @@ $modules{$_} = $_ for qw(
   Capture::Tiny
   Carp
   ExtUtils::MakeMaker
+  Path::Tiny
   Test2::V0
   Test::Alien::Build
   Test::More
