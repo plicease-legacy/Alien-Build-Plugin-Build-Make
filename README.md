@@ -10,6 +10,12 @@ Make plugin for Alien::Build
 
 # DESCRIPTION
 
+**NOTE**: This plugin is in the process of being merged into the [Alien::Build](https://metacpan.org/pod/Alien::Build) core.  As such, please report any
+bugs / submit any patches to its github:
+
+- [https://github.com/Perl5-Alien/Alien-Build/issues](https://github.com/Perl5-Alien/Alien-Build/issues)
+- [https://github.com/Perl5-Alien/Alien-Build/pulls](https://github.com/Perl5-Alien/Alien-Build/pulls)
+
 By default [Alien::Build](https://metacpan.org/pod/Alien::Build) provides a helper for the `make` that is used by Perl and [ExtUtils::MakeMaker](https://metacpan.org/pod/ExtUtils::MakeMaker) itself.
 This is handy, because it is the one make that you can mostly guarantee that you will have.  Unfortunately it may be
 a `make` that isn't supported by the library or tool that you are trying to alienize.  This is mostly a problem on

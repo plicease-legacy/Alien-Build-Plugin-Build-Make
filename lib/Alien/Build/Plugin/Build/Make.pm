@@ -18,6 +18,17 @@ use Alien::Build::Plugin;
 
 =head1 DESCRIPTION
 
+B<NOTE>: This plugin is in the process of being merged into the L<Alien::Build> core.  As such, please report any
+bugs / submit any patches to its github:
+
+=over 4
+
+=item L<https://github.com/Perl5-Alien/Alien-Build/issues>
+
+=item L<https://github.com/Perl5-Alien/Alien-Build/pulls>
+
+=back
+
 By default L<Alien::Build> provides a helper for the C<make> that is used by Perl and L<ExtUtils::MakeMaker> itself.
 This is handy, because it is the one make that you can mostly guarantee that you will have.  Unfortunately it may be
 a C<make> that isn't supported by the library or tool that you are trying to alienize.  This is mostly a problem on
